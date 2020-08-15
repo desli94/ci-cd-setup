@@ -1,0 +1,28 @@
+{
+  "name": "ci-cd-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desli94/ci-cd-setup.git"
+  },
+  "author": "Desli M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desli94/ci-cd-setup/issues"
+  },
+  "homepage": "https://github.com/desli94/ci-cd-setup#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^26.4.0",
+    "supertest": "^4.0.2"
+  }
+}
