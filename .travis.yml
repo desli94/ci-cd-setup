@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "eu-west-3"
   app: "ci-cd-setup"
-  env: "CiCdSetup-env"
+  env: "CiCdSetup-env-1"
   bucket_name: "elasticbeanstalk-eu-west-3-525601169177"
   bucket_path: "ci-cd-setup"
   on:
