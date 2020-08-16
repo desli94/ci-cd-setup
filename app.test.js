@@ -11,7 +11,7 @@ describe("Application", () => {
       .get("/")
       .expect(200)
       .then(res => {
-        expect(res.text).to.equal("It's working")
+        expect(typeof res.text).to.equal("string")
       })
   })
 })
