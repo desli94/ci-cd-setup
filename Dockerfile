@@ -1,5 +1,5 @@
 FROM node:alpine
-EXPOSE 3000
+EXPOSE 80
 
 WORKDIR /app
 COPY package*.json ./
